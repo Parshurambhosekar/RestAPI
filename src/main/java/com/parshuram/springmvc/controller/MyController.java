@@ -24,5 +24,14 @@ public class MyController {
 		
 		return new ResponseEntity<String>(message, HttpStatus.OK);
 	}
+	
+	
+	@GetMapping("/greet)
+	public String getGreetMesssage(){
+		
+		String message="Good Afternoon";
+		
+		return "message";
+	}
 
 }
