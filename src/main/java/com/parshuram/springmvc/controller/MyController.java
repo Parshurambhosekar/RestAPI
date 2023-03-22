@@ -24,5 +24,14 @@ public class MyController {
 		
 		return new ResponseEntity<String>(message, HttpStatus.OK);
 	}
-
+	
+	
+	@GetMapping("/way3")
+	public ResponseEntity<String> getMessageByThirdWay(){
+		
+		String message="Hello REST API......";
+		
+		return ResponseEntity.ok().body(message);
+	}
+	
 }
