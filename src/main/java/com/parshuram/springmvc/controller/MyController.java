@@ -34,4 +34,13 @@ public class MyController {
 		return ResponseEntity.ok().body(message);
 	}
 	
+
+	@GetMapping("/greet)
+	public String getGreetMesssage(){
+		
+		String message="Good Afternoon";
+		
+		return "message";
+	}
+
 }
