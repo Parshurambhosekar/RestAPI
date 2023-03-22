@@ -35,7 +35,7 @@ public class MyController {
 	}
 	
 
-	@GetMapping("/greet)
+	@GetMapping("/greet")
 	public String getGreetMesssage(){
 		
 		String message="Good Afternoon";
