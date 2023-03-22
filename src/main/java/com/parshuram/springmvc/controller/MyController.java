@@ -13,7 +13,7 @@ public class MyController {
 		
 		String message="Welcome to REST API Development.....";
 		
-		return "message";
+		return message;
 	}
 	
 	
@@ -40,7 +40,7 @@ public class MyController {
 		
 		String message="Good Afternoon";
 		
-		return "message";
+		return message;
 	}
 
 }
