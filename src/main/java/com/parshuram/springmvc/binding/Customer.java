@@ -1,5 +1,8 @@
 package com.parshuram.springmvc.binding;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Customer {
 	
 	private Integer id;
